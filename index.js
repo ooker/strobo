@@ -8,7 +8,7 @@ import Shutter from "./components/Shutter.js";
 new Vue({
   el: "#app",
   components: { Scene, Spinner, Box, Spoke, Spiral, Shutter },
-  data: () => ({ size: 400, speed: 21.21, speed2: 120, count: 14, radius: 5 }),
+  data: () => ({ size: 400, speed: 200, speed2: 120, count: 12, radius: 5 }),
   template: `
         <div>
             <h5>Size: {{size}} px</h5>
