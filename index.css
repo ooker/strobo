@@ -7,6 +7,7 @@ body {
 input {
     display: block;
     margin-bottom: 1em;
+    width: 70%;
 }
 
 @keyframes spinning {
@@ -15,5 +16,20 @@ input {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes shuttering {
+  0% {
+    opacity: 1;
+  }
+  49.99% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }

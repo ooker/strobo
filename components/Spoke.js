@@ -7,11 +7,11 @@ export default {
         <g>
             <line
                 v-for="(item, index) in Array.from({length: 720}).slice(0,count)"
-                x1="0"
-                y1="0"
-                :y2="cx(360 / count * index,size)"
-                :x2="cy(360 / count * index,size)"
-                stroke="rgba(0,0,0,0.5)"
+                :x1="cx(360 / count * index,size * 0.5)"
+                :y1="cy(360 / count * index,size * 0.5)"
+                :x2="cx(360 / count * index,size)"
+                :y2="cy(360 / count * index,size)"
+                stroke="black"
             />
         </g>
     `
