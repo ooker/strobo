@@ -50,7 +50,6 @@ new Vue({
             <Scene :size="size">
                 <Spinner :speed="speed">
                     <Spoke :size="size / 2" :count="count" />
-                    <Spoke :size="size / 4" :count="count" />
                 </Spinner>
                 <Shutter :size="size" :speed2="speed2" />
             </Scene>
