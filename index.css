@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+    color: rgba(0,0,0,0.8);
+}
+
+input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
